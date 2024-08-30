@@ -1,0 +1,98 @@
+.hopeforchange {
+    margin: 10px;
+}
+
+.hopeforchange h1 {
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 80, 80);
+    color: white;
+    text-align: center;
+    height: 300px;
+}
+
+.Big_container {
+    margin: 10rem;
+    display: flex; 
+    flex-direction: row; 
+    gap: 5rem; 
+}
+
+.Small_container {
+    font-weight: bold; 
+    font-size: 2vw; 
+}
+
+.Small_container img {
+    width: 25rem;
+    height: 25rem;
+}
+@media (max-width: 1200px) {
+    .hopeforchange h1 {
+        font-size: 4rem; 
+        height: 200px;
+    }
+
+    .Big_container {
+        margin: 5rem; 
+        gap: 3rem; 
+    }
+
+    .Small_container {
+        font-size: 1.5vw; 
+    }
+
+    .Small_container img {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 768px) {
+    .hopeforchange h1 {
+        font-size: 3rem; 
+        height: 150px; 
+    }
+
+    .Big_container {
+        margin: 3rem; 
+        flex-direction: column; 
+        gap: 2rem; 
+    }
+
+    .Small_container {
+        font-size: 4vw;
+        text-align: center; 
+    }
+
+    .Small_container img {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+@media (max-width: 480px) {
+    .hopeforchange h1 {
+        font-size: 2rem;
+        height: 100px; 
+    }
+
+    .Big_container {
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+    .Small_container {
+        font-size: 5vw;
+    }
+
+    .Small_container img {
+        width: 100%;
+        height: auto; 
+    }
+}
+.trio{
+font-size: 13rem;
+text-align: center;
+}
