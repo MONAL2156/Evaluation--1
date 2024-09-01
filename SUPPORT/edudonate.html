@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Special Day/ Educate Someone </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 2rem;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .form-control {
+            border-radius: 30px;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            width: 100%;
+        }
+        .btn-submit {
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 30px;
+            padding: 10px 20px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+        .btn-submit:hover {
+            background-color: #0056b3;
+        }
+        .toggle-switch {
+            display: flex;
+            align-items: center;
+        }
+        .toggle-switch input {
+            margin-right: 10px;
+        }
+        .form-row {
+            display: flex;
+            gap: 1rem;
+        }
+        .form-row .form-group {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2 class="text-center">DONATE SPECIAL DAY</h2>
+    <form>
+        <div class="form-row">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Donor Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Donor Email">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter only 10 digit Mob No">
+            </div>
+            <div class="form-group">
+                <input type="date" class="form-control" value="2024-09-01">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Social Media Handle (Optional)">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name of Parcel">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <input type="number" class="form-control" placeholder="Books Count" value="">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" placeholder="Total Amount" value="">
+            </div>
+        </div>
+        <div class="form-group toggle-switch">
+            <input type="checkbox">
+            <label>Any Special Request?</label>
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" placeholder="Net Amount" value="">
+        </div>
+        <button type="submit" class="btn-submit">DONATE NOW</button>
+    </form>
+</div>
+
+</body>
+</html>
