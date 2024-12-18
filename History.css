@@ -69,3 +69,53 @@ h5 {
     font-weight: normal;
     margin-bottom: 1rem;
 }
+.contact-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.contact{
+    background-color: black;
+    color: white;
+}
+.lead {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.email {
+    font-size: 1.25rem;
+    text-align: center;
+}
+.instagram{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+a:link {
+    color: rgb(68, 15, 228);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(219, 216, 216);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.flex{
+    display: flex;
+    flex-direction: row ;
+    width: 20rem;
+    justify-content: center;
+}
+

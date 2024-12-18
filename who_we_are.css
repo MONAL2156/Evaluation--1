@@ -1,24 +1,58 @@
-.hopeforchange {
-    margin: 10px;
-    border-radius: 10rem;
+/* Make sure the body and html take up the full height of the viewport */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
-.hopeforchange h1 {
-    font-size: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(82, 80, 80);
-    color: white;
-    text-align: center;
-    height: 300px;
+/* Container for the video and text */
+.video-container {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
 }
+
+/* Video settings */
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Send video to the background */
+    opacity: 0.5;
+    filter: blur(5px);
+}
+
+/* Overlay text styling */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(27, 26, 26);
+    text-align: center;
+    /* background-color:  rgb(92, 91, 91); */
+}
+
+.overlay-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.overlay-text p {
+    font-size: 1.5em;
+}
+
 
 .Big_container {
-    margin: 6rem;
+    margin: 4rem;
     display: flex; 
     flex-direction: row; 
-    gap: 5rem; 
+    gap: 3rem; 
 }
 
 .Small_container {
@@ -94,6 +128,56 @@
     }
 }
 .trio{
-font-size: 13rem;
+font-size: 11rem;
 text-align: center;
 }
+
+.contact-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+    
+}
+
+.contact{
+    background-color: black;
+    color: white;
+}
+.lead {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+/* /* 
+.email {
+    font-size: 1.25rem;
+    text-align: center;
+}
+.instagram{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+a:link {
+    color: rgb(68, 15, 228);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(219, 216, 216);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  } */
+ .flex{
+    display: flex;
+    flex-direction: row ;
+    width: 20rem;
+    justify-content: center;
+} 
